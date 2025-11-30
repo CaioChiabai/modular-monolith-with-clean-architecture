@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/App.Api/App.Api.csproj" Id="e5d3ef70-f79f-4095-a73c-9e99a44c84b7" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Users/">
+    <Project Path="src/Modules/Users/Users.Application/Users.Application.csproj" Id="ee2a7626-3e9c-4d34-b7e6-33c4048be75b" />
+    <Project Path="src/Modules/Users/Users.Domain/Users.Domain.csproj" Id="842b5fec-de56-47a0-ab94-e7051519466b" />
+    <Project Path="src/Modules/Users/Users.Infra/Users.Infra.csproj" Id="f7ff823d-a787-4365-8d02-fed029c125c0" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
