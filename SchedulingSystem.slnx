@@ -8,5 +8,7 @@
     <Project Path="src/Modules/Users/Users.Domain/Users.Domain.csproj" Id="842b5fec-de56-47a0-ab94-e7051519466b" />
     <Project Path="src/Modules/Users/Users.Infra/Users.Infra.csproj" Id="f7ff823d-a787-4365-8d02-fed029c125c0" />
   </Folder>
-  <Folder Name="/tests/" />
+  <Folder Name="/tests/">
+    <Project Path="tests/Users.UnitTests/Users.UnitTests.csproj" />
+  </Folder>
 </Solution>
