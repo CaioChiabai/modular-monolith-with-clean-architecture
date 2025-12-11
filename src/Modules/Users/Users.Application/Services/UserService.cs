@@ -23,9 +23,16 @@ namespace Users.Application.Services
             return user.Id;
         }
 
-        public async Task<User?> GetUserByIdAsync(int id)
+        public async Task<UserResponseDto?> GetUserByIdAsync(int id)
         {
-            return await _userRepository.GetByIdAsync(id);
+            var user = await _userRepository.GetByIdAsync(id);
+
+            if (user is null)
+            {
+                return null;
+            }
+
+            return new UserResponseDto ( user.Name, user.Email );
         }
     }
 }
